@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace escuelaPlatzi.entidades
 {
     public class Escuela
@@ -25,7 +27,7 @@ namespace escuelaPlatzi.entidades
             
         }
 
-        public Curso[] Cursos {get; set;}
+        public List<Curso> Cursos {get; set;}
 
         public override string ToString()
         {
