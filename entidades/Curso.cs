@@ -15,7 +15,7 @@ namespace escuelaPlatzi.entidades
 
         public override string ToString()
         {
-            return $"{Nombre}, {UniqueId}";
+            return $"Nombre: {Nombre}, Id: {UniqueId}";
         }
     }
 }

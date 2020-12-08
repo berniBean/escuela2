@@ -24,7 +24,8 @@ namespace escuelaPlatzi.entidades
             Ciudad = ciudad;
             
         }
-        
+
+        public Curso[] Cursos {get; set;}
 
         public override string ToString()
         {

@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 using escuelaPlatzi.entidades;
 
 namespace escuelaPlatzi
@@ -7,30 +8,39 @@ namespace escuelaPlatzi
     {
         static void Main(string[] args)
         {
-            var escuela = new Escuela("Platzi Academy", 1988,TiposEscuela.Secundaria,"México",ciudad: "Xalapa");
+            var escuela = new Escuela("Platzi Academy", 1988, TiposEscuela.Secundaria, "México", ciudad: "Xalapa");
 
-            var arregloCursos = new Curso[3];
-
-
-            arregloCursos[0] = new Curso() {
-                Nombre="101",
-                Jornada = TiposJornada.Mañana
+            Curso[] arregloCursos = {
+                     new Curso(){ Nombre="101"},
+                     new Curso(){ Nombre="201"},
+                     new Curso(){ Nombre="301"},
             };
 
-            arregloCursos[1] = new Curso(){
-                Nombre = "202"
-            };
+            escuela.Cursos = arregloCursos;
+            
+            WriteLine(escuela);
+            ImprimirCursosEscuela(escuela);
 
-            arregloCursos[2] = new Curso(){
-                Nombre = "303"
-            };
 
-            
-            
-            
-            Console.WriteLine(escuela);
-            System.Console.WriteLine("===============");
-            ImprimirCursos(arregloCursos);
+            // WriteLine(escuela);
+            // WriteLine("===============");
+            // ImprimirCursos(arregloCursos);
+
+        }
+
+        private static void ImprimirCursosEscuela(Escuela escuela)
+        {
+            WriteLine("====================");
+            WriteLine("Cursos de la escuela");
+            WriteLine("====================");
+
+            if ( escuela?.Cursos != null)
+            {
+                foreach (var item in escuela.Cursos)
+                {
+                    System.Console.WriteLine(item);
+                }
+            }
 
         }
 
