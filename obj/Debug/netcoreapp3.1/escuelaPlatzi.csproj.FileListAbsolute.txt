@@ -1,0 +1,13 @@
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\bin\Debug\netcoreapp3.1\escuelaPlatzi.exe
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\bin\Debug\netcoreapp3.1\escuelaPlatzi.deps.json
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\bin\Debug\netcoreapp3.1\escuelaPlatzi.runtimeconfig.json
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\bin\Debug\netcoreapp3.1\escuelaPlatzi.runtimeconfig.dev.json
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\bin\Debug\netcoreapp3.1\escuelaPlatzi.dll
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\bin\Debug\netcoreapp3.1\escuelaPlatzi.pdb
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.csprojAssemblyReference.cache
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.AssemblyInfoInputs.cache
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.AssemblyInfo.cs
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.csproj.CoreCompileInputs.cache
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.dll
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.pdb
+C:\Users\ernes\Documents\platzi\c#\escuelaPlatzi\obj\Debug\netcoreapp3.1\escuelaPlatzi.genruntimeconfig.cache
